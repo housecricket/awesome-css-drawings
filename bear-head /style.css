@@ -1,0 +1,139 @@
+:root {
+    --skin-color: #FFE2E2;
+}
+
+.kuma * {
+    position: absolute;
+}
+
+.kuma {
+    position: relative;
+    width: 300px;
+    height: 300px;
+    margin: auto;
+    margin-top: 5%;
+    display: block;
+    background-color:#FF2E63;
+}
+
+.ear-left {
+    top: 8%;
+    left: 18%;
+    background-color: var(--skin-color);
+    border: 8px solid #000;
+    width: 15%;
+    height: 15%;
+    border-radius: 70%;
+}
+
+.ear-right {
+    top: 8%;
+    right: 18%;
+    background-color: var(--skin-color);
+    border: 8px solid #000;
+    width: 15%;
+    height: 15%;
+    border-radius: 70%;
+}
+
+
+.face {
+    top: 12%;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: var(--skin-color);
+    border: 8px solid #000;
+    height: 76%;
+    width: 82%;
+    border-radius: 50%;
+}
+
+.eyebrow-left {
+    background-color: black;
+    width: 23%;
+    height: 5%;
+    border-radius: 20%;
+    top: 32%;
+    left: 18%;
+}
+
+.eyebrow-right {
+    background-color: black;
+    width: 23%;
+    height: 5%;
+    border-radius: 20%;
+    top: 32%;
+    right: 18%;
+}
+
+.eye-left {
+    background-color: black;
+    width: 8%;
+    height: 8%;
+    border-radius: 50%;
+    top: 44%;
+    left: 28%;
+}
+
+.eye-right {
+    background-color: black;
+    width: 8%;
+    height: 8%;
+    border-radius: 50%;
+    top: 44%;
+    right: 28%;
+}
+
+.mouth-left {
+    background-color: black;
+    width: 18%;
+    height: 18%;
+    border-radius: 50%;
+    top: 60%;
+    left: 34%;
+}
+
+.mouth-right {
+    background-color: black;
+    width: 18%;
+    height: 18%;
+    border-radius: 50%;
+    top: 60%;
+    right: 34%;
+}
+
+.truffle-left {
+    background-color:#EAEAEA;
+    width: 80%;
+    height: 75%;
+    border-radius: 50%;
+    top: 13%;
+    left: 11%;
+    z-index: 1;
+}
+
+.truffle-right {
+    background-color: #EAEAEA;
+    width: 80%;
+    height: 75%;
+    border-radius: 50%;
+    top: 13%;
+    right: 11%;
+    z-index: 1;
+}
+
+
+.nose {
+    background-color: black;
+    width: 10%;
+    height: 10%;
+    border-radius: 50%;
+    top: 57%;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    z-index: 2;
+}
