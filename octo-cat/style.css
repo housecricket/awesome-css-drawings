@@ -1,0 +1,23 @@
+body {
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .octocat {
+      --black: #000000;
+    --white: #ffffff;
+    --bigode: #c0c0c0;
+    --base: #76d6ff;
+    --eyes: #9c5700;
+    --skin: #ffd3b8;
+      display: inline-grid;
+      grid-template-rows: repeat(29, 15px);
+      grid-template-columns: repeat(27, 15px);
+  }
+    
+  .octocat__pixel {
+      background-color: var(--color);
+  }
