@@ -1,0 +1,266 @@
+:root {
+    --color-black: #000000;
+    --color-creme: #d1b271;
+    --color-white: #ffffff;
+    --color-yellow: #fed90f;
+    --color-background: #de433f;
+}
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5%;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  background: var(--color-background);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.head {
+  width: 215px;
+  height: 405px;
+  position: relative;
+}
+
+.forehead {
+  width: 170px;
+  height: 200px;
+  background-color: var(--color-yellow);
+  border: 1px solid var(--color-black);
+  border-radius: 60%/50%;
+  transform: rotate(-18deg);
+  position: absolute;
+  top: 10px;
+}
+
+.hair {
+  width: 80px;
+  height: 70px;
+  border-top: 2px solid var(--color-black);
+  transform: rotate(-40deg);
+  border-radius: 50%;
+  position: absolute;
+}
+
+.hair1 {
+  top: 15px;
+}
+
+.hair2 {
+  left: 10px;
+}
+
+.eye {
+  width: 75px;
+  height: 75px;
+  background-color: var(--color-white);
+  border: 1px solid var(--color-black);
+  border-radius: 50%;
+  position: absolute;
+}
+
+.R-eye {
+  top: 110px;
+  left: 120px;
+}
+
+.L-eye {
+  top: 115px;
+  left: 60px;
+}
+
+.pupil {
+  width: 9px;
+  height: 9px;
+  background-color: var(--color-black);
+  border-radius: 50%;
+  position: absolute;
+  top: 40px;
+}
+
+.pupil-right {
+  left: 30px;
+}
+
+.pupil-left {
+  left: 25px;
+}
+
+.f-side1 {
+  width: 140px;
+  height: 60px;
+  background-color: var(--color-yellow);
+  position: absolute;
+  top: 185px;
+  left: 30px;
+}
+
+.f-side2 {
+  width: 40px;
+  height: 60px;
+  background-color: var(--color-yellow);
+  border-left: 1px solid var(--color-black);
+  transform: rotate(-11deg);
+  position: absolute;
+  top: 165px;
+  left: 22px;
+}
+
+.nose {
+  width: 60px;
+  height: 32px;
+  background-color: var(--color-yellow);
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  border: 1px solid var(--color-black);
+  border-left: 1px solid transparent;
+  position: absolute;
+  top: 175px;
+  left: 130px;
+}
+
+.mouth {
+  width: 115px;
+  height: 120px;
+  position: absolute;
+  background-color: var(--color-creme);
+  border: 1px solid var(--color-black);
+  border-radius: 50%;
+  top: 207px;
+  left: 60px;
+}
+
+.mouth-part1 {
+  width: 20px;
+  height: 30px;
+  background-color: var(--color-creme);
+  border-right: 1px solid var(--color-black);
+  border-radius: 50%;
+  transform: rotate(15deg);
+  position: absolute;
+  top: 62px;
+  left: 98px;
+}
+
+.mouth-part2 {
+  width: 120px;
+  height: 60px;
+  background-color: var(--color-creme);
+  border-bottom: 1px solid var(--color-black);
+  border-radius: 60%;
+  transform: rotate(-6deg);
+  position: absolute;
+  top: 20px;
+  left: 30px;
+}
+
+.mouth-part3 {
+  width: 35px;
+  height: 48px;
+  background-color: var(--color-creme);
+  border-top: 1px solid var(--color-black);
+  border-radius: 10%;
+  transform: rotate(40deg);
+  position: absolute;
+  top: 230px;
+  left: 165px;
+}
+
+.mouth-part4 {
+  width: 60px;
+  height: 30px;
+  background-color: var(--color-creme);
+  border-right: 1px solid var(--color-black);
+  border-top-right-radius: 70%;
+  position: absolute;
+  top: 200px;
+  left: 130px;
+}
+
+.mouth-part5 {
+  width: 30px;
+  height: 30px;
+  background-color: var(--color-creme);
+  position: absolute;
+  top: 260px;
+  left: 80px;
+}
+
+.neck {
+  width: 125px;
+  height: 150px;
+  background-color: var(--color-yellow);
+  position: absolute;
+  top: 200px;
+  left: 27px;
+  border-left: 1px solid var(--color-black);
+  border-right: 1px solid var(--color-black);
+  transform: rotate(2deg);
+}
+
+.collar-left {
+  width: 110px;
+  height: 60px;
+  background-color: var(--color-white);
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+  transform: rotate(15deg);
+  border-radius: 10%;
+  border: 1px solid var(--color-black);
+}
+
+.collar-right {
+  width: 20px;
+  height: 60px;
+  background-color: var(--color-white);
+  position: absolute;
+  bottom: 0px;
+  left: 150px;
+  transform: rotate(-20deg);
+  border-radius: 10%;
+  border: 1px solid var(--color-black);
+}
+
+.ear {
+  width: 32px;
+  height: 37px;
+  background-color: var(--color-yellow);
+  position: absolute;
+  top: 200px;
+  left: 10px;
+  transform: rotate(10deg);
+  border: 1px solid var(--color-black);
+  border-radius: 50%;
+}
+
+.ear-1 {
+  width: 15px;
+  height: 15px;
+  border-left: 1px solid var(--color-black);
+  border-top-left-radius: 50%;
+  border-bottom-left-radius: 50%;
+  position: absolute;
+  top: 8px;
+  left: 8px;
+}
+
+.ear-2 {
+  width: 8px;
+  height: 8px;
+  border-bottom: 1px solid var(--color-black);
+  position: absolute;
+  top: -3px;
+}
+
