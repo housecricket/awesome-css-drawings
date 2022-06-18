@@ -1,0 +1,23 @@
+body {
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .umbreon {
+    --black: #000;
+    --yellow: #FFFF00;
+    --gold: #FFD700;
+    --grey: #4F4F4F;
+    --red: #CD0000;
+    --pink: #FFB6C1;
+    display: inline-grid;
+    grid-template-rows: repeat(48, var(--pixel-size, 10px));
+    grid-template-columns: repeat(43, var(--pixel-size, 10px));
+  }
+  
+  .umbreon__pixel{ 
+    background-color: var(--color);
+  }
