@@ -1,0 +1,19 @@
+body {
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .trex-runner {
+      --black: #000000;
+    --size: 25px;
+      display: inline-grid;
+      grid-template-rows: repeat(20, var(--size, 10px));
+      grid-template-columns: repeat(20, var(--size, 10px));
+  }
+    
+  .trex-runner__pixel {
+      background-color: var(--color);
+  }
