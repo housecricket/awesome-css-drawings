@@ -1,0 +1,40 @@
+body {
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .mush-room {
+    --black: #000;
+    --dark-green: #008B00;
+    --light-green: #00FF00;
+    --green: #00CD00;
+    --pixel-size: 20px;
+    display: inline-grid;
+    grid-template-rows: repeat(16, var(--pixel-size, 10px));
+    grid-template-columns: repeat(16, var(--pixel-size, 10px));
+  }
+  
+  @media (max-width: 400px) {
+    .mush-room {
+      --pixel-size: 10px;
+    }
+  }
+  
+  @media (max-width: 180px) {
+    .mush-room {
+      --pixel-size: 5px;
+    }
+  }
+  
+  @media (max-width: 90px) {
+    .mush-room {
+      --pixel-size: 2px;
+    }
+  }
+  
+  .mush-room__pixel {
+    background-color: var(--color);
+  }
